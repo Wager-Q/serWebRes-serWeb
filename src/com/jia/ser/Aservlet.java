@@ -12,7 +12,7 @@ public class Aservlet extends HttpServlet {
     private String message;
 
     public void init() throws ServletException {
-        message = "测试成功!!";
+        message = "测试成功??";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
